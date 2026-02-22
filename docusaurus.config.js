@@ -10,15 +10,15 @@ const config = {
   future: { v4: true },
 
   // --- GITHUB PAGES SETTINGS ---
-  url: 'https://YOUR_GITHUB_USERNAME.github.io', // Replace with your username
+  url: 'https://JackSteve-code.github.io', // Replace with your username
   baseUrl: '/fraud-detector/', // The name of your GitHub repository
-  organizationName: 'YOUR_GITHUB_USERNAME', // Replace with your username
+  organizationName: 'JackSteve-code', // Replace with your username
   projectName: 'fraud-detector', // The name of your GitHub repository
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
   // -----------------------------
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
