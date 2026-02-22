@@ -46,9 +46,6 @@ Save millions in chargeback fees
 Protect customer trust
 
 This is exactly what we'll build — a full machine learning system that goes from raw transaction data → trained model → real-time fraud scoring.
-in the image, the top part shows the old rule-based way (lots of manual work, easy to fool). The bottom part is the modern ML way (automatically learns patterns and keeps improving).
-
-![Alt text](/img/z.png)
 
 #### Understanding the problem
 
@@ -1176,5 +1173,6 @@ def create_velocity_features(transactions, time_window=3600):
         count = len(transactions[
             (transactions['Time'] > trans_time - time_window) & 
 ```
+
 
 
